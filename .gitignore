@@ -1,0 +1,27 @@
+#generated files
+build/
+*.apk
+output.json
+
+#Local configuration files
+local.properties
+
+#gradle generated files
+./gradle
+
+#android studio
+.idea/
+*.iml
+
+#update localization scripts needs node modules
+node_modules/
+
+#os-specific files
+.DS_Store
+
+#Android studio capture foldes
+captures/
+
+#Misc
+.externalNativeBuild
+.cxx
